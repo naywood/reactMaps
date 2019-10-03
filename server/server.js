@@ -6,10 +6,10 @@ const app = express();
 
 let pusher = new Pusher ({
     appId: '873951',
-    key: 'b547bdd4ba3a687d4ddc',
-    secret: '1fd4a190ed552cf5f0a5',
-    cluster: 'us3',
-    encrypted: true
+  key: 'b547bdd4ba3a687d4ddc',
+  secret: '1fd4a190ed552cf5f0a5',
+  cluster: 'us3',
+  encrypted: true
 });
 
 app.use(bodyParser.json());
